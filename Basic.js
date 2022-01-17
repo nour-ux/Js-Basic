@@ -30,9 +30,9 @@ console.log(`billing info:
 Customer id ${arr1[0]}  
 Book title: ${arr[1]}  
 Price: ${price}`); }  
-else if (price > balance){  
+if (price > balance){  
 console.log("Your balance is not enough");}  
-else if (Quantity>= bookQuantity){ console.log("The book isnot available");}}  
+if (Quantity>= bookQuantity){ console.log("The book isnot available");}}  
  
  
  
